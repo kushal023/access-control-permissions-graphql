@@ -1,0 +1,25 @@
+{
+  "name": "v",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.1",
+    "apollo-server-express": "^3.4.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.1",
+    "graphql-middleware": "^6.1.11",
+    "graphql-resolvers": "^0.4.2",
+    "graphql-shield": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
